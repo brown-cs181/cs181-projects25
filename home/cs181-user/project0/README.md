@@ -1,1 +1,1 @@
-# This project will be released on 09/06/2024.
+# Released: 9/6/24, Due: 9/20/24
