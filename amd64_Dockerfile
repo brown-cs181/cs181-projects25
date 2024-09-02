@@ -1,0 +1,19 @@
+FROM pmahable/cs181:latest
+
+# Set up the User Interface
+RUN apt-get -y install sudo
+
+RUN useradd --create-home -s /bin/bash cs181-user && \
+  echo "cs181-user ALL=(ALL:ALL) NOPASSWD: ALL" > /etc/sudoers.d/cs181-init
+
+# RUN mkdir /home/cs181-user
+# RUN chown cs181-user /home/cs181-user
+
+USER cs181-user
+RUN rm -f ~/.bash_logout
+
+WORKDIR /home
+
+RUN sudo apt-get -y install git
+
+CMD ["/bin/bash", "-l"]
