@@ -5,4 +5,4 @@
 # to the sequences file, the path to the matrix file, and the gap open and extension penalty.
 # You'll need to edit this file for the language of your choosing.
 # Come to office hours if you need additional clarification.
-python affine.py ${1} ${2} ${3} ${4}
+python3 affine.py ${1} ${2} ${3} ${4}
