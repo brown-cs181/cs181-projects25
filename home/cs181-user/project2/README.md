@@ -1,1 +1,2 @@
-# This project will be released on 10/12/2024.
+# Out: October 12
+# Due: October 25th at 11:59PM
