@@ -5,7 +5,7 @@ import pickle
 
 def train_hmm(motif, motif_pickle):
     """
-    Train HMM on motif and negative control sequences and return trained HMM.
+    Train HMM on input sequences and return trained HMM.
     Input: motif (str), motif_pickle (str)
     Output: hmm.CategoricalHMM
     """
